@@ -10,3 +10,6 @@ on schedule every 1 minute
 do insert into `mark_log`(msg) values('== MARK ==');
 
 -- alter event `mark_insert` disable; -- enable
+
+# note
+-- set global event_scheduler = 1;
